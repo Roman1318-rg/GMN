@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GMN – Global My Nemix</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: #0a1f44;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header img {
+      width: 100px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #0a1f44;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #222;
+      color: #bbb;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #0073e6;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.jpg" alt="GMN Logo" />
+    <h1>GMN – Global My Nemix</h1>
+    <nav>
+      <a href="#about">Про нас</a>
+      <a href="#products">Продукти</a>
+      <a href="#contact">Контакти</a>
+    </nav>
+  </header>
+
+  <section class="section" id="about">
+    <h2>Про компанію</h2>
+    <p>
+      GMN (Global My Nemix) – міжнародна технологічна компанія, що створює інноваційні рішення у сфері мікроелектроніки, операційних систем, хмарних сервісів та штучного інтелекту.
+    </p>
+  </section>
+
+  <section class="section" id="products">
+    <h2>Продукти та технології</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>M Nemix</h3>
+        <p>Процесори нового покоління з високою продуктивністю та підтримкою ШІ.</p>
+      </div>
+      <div class="card">
+        <h3>Global My World OS</h3>
+        <p>Операційна система для повної інтеграції та захисту пристроїв.</p>
+      </div>
+      <div class="card">
+        <h3>Global My Cloud</h3>
+        <p>Хмарна платформа для зберігання й синхронізації даних.</p>
+      </div>
+      <div class="card">
+        <h3>My AI</h3>
+        <p>Інтелектуальний помічник для автоматизації й персоналізації.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Контакти</h2>
+    <p>Email: globalmynemix@gmail.com</p>
+    <p>Телефон: +380-93-656-0895</p>
+    <a href="mailto:globalmynemix@gmail.com" class="btn">Написати нам</a>
+  </section>
+
+  <footer>
+    &copy; 2025 GMN. Усі права захищені.
+  </footer>
+</body>
+</html>
